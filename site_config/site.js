@@ -72,55 +72,25 @@ export default {
         link: '/zh-cn/index.html',
       },
       {
-        key: 'docs',
-        text: '文档',
-        link: '/zh-cn/docs/demo1.html',
-      },
-      {
         key: 'blog',
         text: '博客',
         link: '/zh-cn/blog/index.html',
       },
-      {
-        key: 'community',
-        text: '社区',
-        link: '/zh-cn/community/index.html',
-      },
     ],
     disclaimer: {
-      title: '免责声明',
-      content: '免责声明的具体内容',
+      title: '个人博客',
+      content: 'yPan的个人博客',
     },
     documentation: {
       title: '文档',
       list: [
-        {
-          text: '概览',
-          link: '/zh-cn/docs/demo1.html',
-        },
-        {
-          text: '快速开始',
-          link: '/zh-cn/docs/demo2.html',
-        },
-        {
-          text: '开发者指南',
-          link: '/zh-cn/docs/dir/demo3.html',
-        },
       ],
     },
     resources: {
       title: '资源',
       list: [
-        {
-          text: '博客',
-          link: '/zh-cn/blog/index.html',
-        },
-        {
-          text: '社区',
-          link: '/zh-cn/community/index.html',
-        },
       ],
     },
-    copyright: 'Copyright © 2018 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+    copyright: 'Copyright © 2018 游盼个人博客',
   },
 };

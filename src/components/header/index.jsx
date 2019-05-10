@@ -9,11 +9,11 @@ import './index.scss';
 const languageSwitch = [
   {
     text: '中',
-    value: 'en-us',
+    value: 'zh-cn',
   },
   {
     text: 'En',
-    value: 'zh-cn',
+    value: 'en-us',
   },
 ];
 const searchSwitch = {
@@ -160,9 +160,9 @@ class Header extends React.Component {
                   [`language-switch-${type}`]: true,
                 })
               }
-              onClick={this.switchLang}
+              onClick={null}
             >
-              {languageSwitch.find(lang => lang.value === language).text}
+              {'中'}
             </span>)
             :
             null
