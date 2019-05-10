@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import { scroller } from 'react-scroll';
 import path from 'path';
 import 'whatwg-fetch'; // fetch polyfill
+import 'gitalk/dist/gitalk.css';
+import Gitalk from 'gitalk';
 import Language from '../../components/language';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
@@ -12,6 +14,17 @@ import './index.scss';
 const anchorReg = /^#[^/]/;
 // 相对地址正则，包括./、../、直接文件夹名称开头、直接文件开头
 const relativeReg = /^((\.{1,2}\/)|([\w-]+[/.]))/;
+
+const gitalk = new Gitalk({
+  clientID: '96aed39bb58f8305300a',
+  clientSecret: '35302d8eccb58268c46dd8e8ac8dc9b6631de07a',
+  repo: 'ypandagit.github.io',
+  owner: 'YpandaGit',
+  admin: ['YpandaGit'],
+  id: window.location.pathname,      // Ensure uniqueness and length less than 50
+  distractionFreeMode: false  // Facebook-like distraction free mode
+});
+
 class BlogDetail extends Language {
 
   constructor(props) {
@@ -41,6 +54,7 @@ class BlogDetail extends Language {
         });
       }
     });
+    gitalk.render('gitalk-container');
   }
 
   componentDidUpdate() {
@@ -84,6 +98,7 @@ class BlogDetail extends Language {
   render() {
     const language = this.getLanguage();
     const __html = this.props.__html || this.state.__html;
+
     return (
       <div className="blog-detail-page">
         <Header
@@ -98,6 +113,7 @@ class BlogDetail extends Language {
           ref={(node) => { this.markdownContainer = node; }}
           dangerouslySetInnerHTML={{ __html }}
         />
+        <div className="blog-content markdown-body" id="gitalk-container" />
         <Footer logo="/img/dubbo_gray.png" language={language} />
       </div>
     );
