@@ -9,12 +9,12 @@ export default {
         {
           text: '查看简书',
           link: 'https://www.jianshu.com/u/ca226b41cd53',
-          type: 'normal',
+          type: 'primary',
         },
         {
           text: '查看Github',
           link: 'https://github.com/YpandaGit?tab=repositories',
-          type: 'primary',
+          type: 'normal',
         },
       ],
     },
