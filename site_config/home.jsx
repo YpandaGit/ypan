@@ -3,23 +3,23 @@ import React from 'react';
 export default {
   'zh-cn': {
     brand: {
-      brandName: '开源产品品牌名称',
-      briefIntroduction: '关于开源产品的简单介绍',
+      brandName: '个人网站',
+      briefIntroduction: '一个还没有秃顶的码农。',
       buttons: [
         {
-          text: '立即开始',
-          link: '',
-          type: 'primary',
+          text: '查看简书',
+          link: 'https://www.jianshu.com/u/ca226b41cd53',
+          type: 'normal',
         },
         {
           text: '查看Github',
-          link: '',
-          type: 'normal',
+          link: 'https://github.com/YpandaGit?tab=repositories',
+          type: 'primary',
         },
       ],
     },
     introduction: {
-      title: '开源产品的介绍',
+      title: 'y',
       desc: '开源产品的简单介绍，提供一些该产品的优点、特性描述等',
       img: '/img/architecture.png',
     },

@@ -78,19 +78,19 @@ export default {
       },
     ],
     disclaimer: {
-      title: '个人博客',
-      content: 'yPan的个人博客',
+      title: '个人网站',
+      content: 'yPan的个人网站',
     },
     documentation: {
-      title: '文档',
+      title: 'Github',
       list: [
       ],
     },
     resources: {
-      title: '资源',
+      title: '简书',
       list: [
       ],
     },
-    copyright: 'Copyright © 2018 游盼个人博客',
+    copyright: 'Copyright © 2018 游盼个人网站',
   },
 };
