@@ -62,16 +62,16 @@
       "filename": "1.md",
       "link": "\\zh-cn\\blog\\docsite\\1.html",
       "meta": {
-        "key1": "docsite",
-        "key2": "gitalk"
+        "title": "Docsite集成Gitalk",
+        "keywords": "docsite,gitalk"
       }
     },
     {
       "filename": "1.md",
       "link": "\\zh-cn\\blog\\java\\1.html",
       "meta": {
-        "key1": "Spring",
-        "key2": "DI"
+        "title": "手写Spring核心功能第一篇：IOC与DI",
+        "keywords": "Spring,IOC,DI"
       }
     }
   ]
