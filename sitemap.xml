@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+xmlns:mobile="http://www.baidu.com/schemas/sitemap-mobile/1/">
+<url>
+ <loc>https://ypandagit.github.io/zh-cn/</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-11</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>https://ypandagit.github.io/zh-cn/index.html</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-11</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>https://ypandagit.github.io/zh-cn/index.html</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-11</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>https://ypandagit.github.io/zh-cn/blog/index.html</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-11</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>https://www.jianshu.com/u/ca226b41cd53</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-11</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>https://github.com/ypandagit?tab=repositories</loc>
+ <mobile:mobile type="pc,mobile" />
+ <priority>0.5</priority>
+ <lastmod>2019-05-11</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+</urlset>
