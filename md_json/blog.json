@@ -59,8 +59,16 @@
   ],
   "zh-cn": [
     {
-      "filename": "blog1.md",
-      "link": "\\zh-cn\\blog\\blog1.html",
+      "filename": "1.md",
+      "link": "\\zh-cn\\blog\\docsite\\1.html",
+      "meta": {
+        "key1": "docsite",
+        "key2": "gitalk"
+      }
+    },
+    {
+      "filename": "1.md",
+      "link": "\\zh-cn\\blog\\java\\1.html",
       "meta": {
         "key1": "Spring",
         "key2": "DI"
