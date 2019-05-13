@@ -16,6 +16,14 @@
         "title": "手写Spring核心功能第一篇：IOC与DI",
         "keywords": "Spring,IOC,DI"
       }
+    },
+    {
+      "filename": "2.md",
+      "link": "\\zh-cn\\blog\\java\\2.html",
+      "meta": {
+        "title": "SpringBoot接口返回数据统一将LONG转为String",
+        "keywords": "Spring,统一返回"
+      }
     }
   ]
 }
